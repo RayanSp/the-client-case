@@ -101,10 +101,10 @@ form button:hover {
     cursor: pointer;
     position: fixed;
     bottom: 10px;
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .chat-btn:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
