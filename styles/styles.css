@@ -31,6 +31,8 @@ header h1{
     border-top-right-radius: 15px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
     background-color: white;
+    /* overflow: hidden;
+    max-height: 0; */
 }
 
 
@@ -65,7 +67,7 @@ form input {
     border: none;
     outline: none;
     padding-right: 155px;
-    padding-left: 25px;
+    padding-left: 20px;
     font-size: 16px;
 }
 
@@ -85,3 +87,24 @@ form button:hover {
     background-color: rgb(4, 81, 64);
     transition: 0.3s ease;
 }
+
+.chat-btn {
+    width: 70px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    border-color: black;
+    color: black;
+    border-radius: 50%;
+    background-color: rgb(16, 170, 137);
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    transition: .4s ease-in-out;
+}
+
+.chat-btn:hover {
+    transform: scale(1.5);
+}
+
