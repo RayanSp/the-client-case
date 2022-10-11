@@ -13,13 +13,81 @@ body{
     align-items: center;
 }
 
-header h1{
+header {
     color: white;
     padding: 15px;
-    font-size: 30px;
+    font-size: 22px;   
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: rgb(16, 170, 137);
+}
+
+.header-text {
+    color: white;
+    font-weight: bold;
+}
+
+.header-text2 {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.header-text2:hover {
+    background-color: rgb(8, 97, 78);
+}
+
+
+ul {
+    list-style: none;
+    color: white;
+    background:rgb(16, 170, 137); 
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown1:hover {
+    background-color:rgb(8, 97, 78)
+}
+
+.dropdown2:hover {
+    background-color:rgb(8, 97, 78)
+}
+
+.dropdown3:hover {
+    background-color:rgb(8, 97, 78)
+}
+
+ul li ul.dropdown li {
+    display: block;
+    color: white;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    color: white;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    color: white;
 }
 
 .container{
@@ -107,4 +175,3 @@ form button:hover {
 .chat-btn:hover {
     transform: scale(1.25);
 }
-
