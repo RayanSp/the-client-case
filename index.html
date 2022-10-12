@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <title>Vini Mini</title>
-  <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/bd96603fb6.js" crossorigin="anonymous"></script>
   <!-- <img class="vinilogo" src="assets/viniminilogo.webp"> -->
 </head>
@@ -25,14 +24,14 @@
         </li>
     </ul>
     </header>
-        <div class="body">
-            <p class="message">Hello</p>
-            <p class="message user_message">Hello</p>
+        <div class="body">      
+                <p class="message">Hello</p>
+                <p class="user_message">Hello2</p>
         </div>
         <footer>
             <form>
-                <input type="text" placeholder="Stuur hier je bericht..." name="#">
-                <button>VERZEND</button>
+                <input id="userInput" type="text" placeholder="Stuur hier je bericht..." name="#">
+                <button onclick="returnText">VERZEND</button>
             </form>
         </footer>
 </div>  
@@ -40,7 +39,7 @@
     <!-- button expand -->
     <button class="chat-btn">&#128269;</button>
  
-
+    <script src="script.js"></script>
 </body>
 
 </html>
