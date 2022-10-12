@@ -32,7 +32,7 @@ header {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 60px 0px 60px;
 }
 .header-text2:hover {
     background-color: rgb(8, 97, 78);
@@ -62,15 +62,15 @@ ul li a {
 }
 
 .dropdown1:hover {
-    background-color:rgb(8, 97, 78)
+    background-color:rgb(8, 97, 78);
 }
 
 .dropdown2:hover {
-    background-color:rgb(8, 97, 78)
+    background-color:rgb(8, 97, 78);
 }
 
 .dropdown3:hover {
-    background-color:rgb(8, 97, 78)
+    background-color:rgb(8, 97, 78);
 }
 
 ul li ul.dropdown li {
