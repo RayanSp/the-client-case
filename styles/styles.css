@@ -165,10 +165,10 @@ form button:hover {
     font-size: 16px;
     font-weight: bold;
     align-items: center;
-    border-color: black;
-    color: black;
+    border-color: rgb(16, 170, 137);
+    color: rgb(16, 170, 137);
     border-radius: 50%;
-    background-color: rgb(16, 170, 137);
+    background-color: rgb(255, 251, 35);
     cursor: pointer;
     position: fixed;
     bottom: 10px;
@@ -179,3 +179,6 @@ form button:hover {
 .chat-btn:hover {
     transform: scale(1.25);
 }
+
+
+
