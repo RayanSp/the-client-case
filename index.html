@@ -15,24 +15,29 @@
     <header>
     <ul>
         <li><a class="header-text">Huidige chat met:</a></li>
-        <li>
-        <a class="header-text2">Rayan &#8595;</a>
-        <ul class="dropdown">
-            <li><a class="dropdown1">Laurie</a></li>
-            <li><a class="dropdown2">Jozien</a></li>
-            <li><a class="dropdown3">+ | Nieuwe chat</a></li>
-        </li>
+            <li>
+                <a class="header-text2">Rayan &#8595;</a>
+                    <ul class="dropdown">
+                        <li><a class="dropdown1">Laurie</a></li>
+                        <li><a class="dropdown2">Jozien</a></li>
+                        <li><a class="dropdown3">+ | Nieuwe chat</a></li>
+                    </ul>
+            </li>
     </ul>
     </header>
-        <div class="body">      
-                <p class="message">Hello</p>
-                <p class="user_message">Hello2</p>
+        <div class="body">
+            <div>
+                <ul id="list">  
+                    <p class="message">Hello</p>
+                    <p class="user_message">Hello2</p>
+                </ul>
+            </div>
         </div>
         <footer>
-            <form>
-                <input id="userInput" type="text" placeholder="Stuur hier je bericht..." name="#">
-                <button onclick="returnText">VERZEND</button>
-            </form>
+            <!-- <form> -->
+                <input id="userInput" type="text" placeholder="Stuur hier je bericht...">
+                <button onclick="returnText()">VERZEND</button>
+            <!-- </form> -->
         </footer>
 </div>  
 

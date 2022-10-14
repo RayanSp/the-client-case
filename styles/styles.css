@@ -14,7 +14,7 @@ body{
 }
 
 header {
-    justify-content: center;
+    /* justify-content: center; */
     color: white;
     padding: 15px;
     font-size: 22px;   
@@ -24,6 +24,8 @@ header {
 }
 
 .header-text {
+    display: inline-block;
+    position: relative;
     color: white;
     font-weight: bold;
 }
@@ -92,7 +94,6 @@ ul li:hover ul.dropdown {
 }
 
 .container{
-    width: 450px;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -122,8 +123,9 @@ ul li:hover ul.dropdown {
 }
 
 .user_message{
-    margin-left: auto;
-    padding: 10px;
+    align-self: flex-end;
+    padding: .75em;
+    margin-bottom: .5em;
     background-color: white;
     width: fit-content;
     color: black;
@@ -134,7 +136,7 @@ ul li:hover ul.dropdown {
     display: flex;
 }
 
-form input {
+footer input {
     flex: 3;
     height: 40px;
     border: none;
@@ -144,7 +146,7 @@ form input {
     font-size: 16px;
 }
 
-form button {
+footer button {
     width: 90px;
     height: 35px;
     font-size: 16px;
@@ -154,11 +156,11 @@ form button {
     background-color: rgb(16, 170, 137);
     cursor: pointer;
     color: white;
+    transition: 0.3s ease-in-out;
 }
 
-form button:hover {
+footer button:hover {
     background-color: rgb(4, 81, 64);
-    transition: 0.3s ease;
 }
 
 .chat-btn {
@@ -182,5 +184,19 @@ form button:hover {
     transform: scale(1.25);
 }
 
+#knop {
+    align-self: auto;
+    margin-left: auto;
+    margin-top: .75em;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+    color: black;
+    border-radius: 1rem 1rem 0rem 1rem;
+}
 
-
+#list {
+    background-color: rgb(255, 251, 35);
+    display: flex;
+    flex-direction: column;
+}

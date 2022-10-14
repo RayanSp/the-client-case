@@ -1,7 +1,9 @@
-const body = document.getElementsByClassName("body");
+const list = document.getElementById("list");
+
+console.log(list);
 
 function returnText(){
     let input = document.getElementById("userInput").value;
-    document.getElementsByClassName('body').innerHTML += `<p class="user_message">${input} </p>`;
+    document.getElementById('list').innerHTML += `<li id="knop">${input} </li><br>`;
         userInput.value = '';
 }
