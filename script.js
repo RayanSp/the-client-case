@@ -7,3 +7,12 @@ function returnText(){
     document.getElementById('list').innerHTML += `<li id="knop">${input} </li><br>`;
         userInput.value = '';
 }
+
+
+function startchat() {
+    document.getElementById("container").style.zIndex = "2";
+}
+
+function closechat() {
+    document.getElementById("container").style.zIndex = "-1";
+}

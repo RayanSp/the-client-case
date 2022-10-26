@@ -10,8 +10,8 @@
 </head>
 
 <body>
-
-<div class="container">
+<div class="viniminipage">Vini Mini pagina<button class="openchat" type="button" onclick="startchat()">Start chat</button></div>
+<div id="container">
     <header>
     <ul>
         <li><a class="header-text">Huidige chat met:</a></li>
@@ -39,10 +39,11 @@
                 <button onclick="returnText()">VERSTUUR</button>
             <!-- </form> -->
         </footer>
+    <button type="button" onclick="closechat()" class="chat-btn">Close chat</button>
 </div>  
 
     <!-- button expand -->
-    <button class="chat-btn">&#128269;</button>
+    <!-- <button class="chat-btn">&#128269;</button> -->
  
     <script src="script.js"></script>
 </body>
