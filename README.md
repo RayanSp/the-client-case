@@ -31,6 +31,7 @@ Mijn HTML ziet er als volgt uit;
 <img width="944" alt="Schermafbeelding 2022-10-31 om 12 18 11" src="https://user-images.githubusercontent.com/112861069/198995415-2ef93b56-3679-4fa3-93fd-253dbd7f52df.png">
 
 Mijn JS ziet er als volgt uit;
+
 <img width="680" alt="Schermafbeelding 2022-10-31 om 12 19 53" src="https://user-images.githubusercontent.com/112861069/198995813-f15818e3-0680-46b1-8404-cf4adb377d9f.png">
 
 Naar javascript heb ik lang moeten kijken, met javascript moest ik ervoor zorgen dat door te klikken op de button onder aan het scherm, de chat zou open en sluiten. 
