@@ -9,7 +9,10 @@ Vinimini chatbox
   * [Licentie](#licentie)
 
 ## Opdracht
-De opdrachtgevers van Vinimini hebben meerdere problemen op hun website, 1 van de problemen was dat gebruikers niet met elkaar konden communiceren op de website. Ik heb toen User Story 6 gekozen, het idee was dat ik een chatbox zou maken waar gebruikers met elkaar kunnen chatten. 
+De opdrachtgevers van Vinimini hebben meerdere problemen op hun website. Na het gesprek met de opdrachtgevers heb ik met een groepje van 4 een debriefing geschreven. Hier de link;https://docs.google.com/document/d/1VC8iApx1y0zcgzTWrOlzUw62DFbw8p87cdYt1NKxVrs/edit 
+
+1 van de problemen van Vinimini was dat gebruikers niet met elkaar konden communiceren op de website. 
+Ik heb toen User Story 6 gekozen, het idee was dat ik een chatbox zou maken waar gebruikers met elkaar kunnen chatten. 
 
 Na lang hier mee aan de slag te gaan, ben ik tot op dit punt zover gekomen. 
 
