@@ -16,3 +16,5 @@ function startchat() {
 function closechat() {
     document.getElementById("container").style.zIndex = "-1";
 }
+
+// preventDefault
